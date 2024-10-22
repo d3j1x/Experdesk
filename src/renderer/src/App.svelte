@@ -10,7 +10,7 @@
   Powered by <span style="letter-spacing: 2px; font-weight: bold;">EXPERTEAM</span>
 </div>
 <div class="text">
-  Lancez votre carrière
+  Lancez votre carrière dans le
   <span class="svelte">Testing</span>
   avec
   <span class="ts">Expertest</span>.

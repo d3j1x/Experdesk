@@ -1,10 +1,10 @@
 {
   "name": "experdesk",
   "version": "1.0.0",
-  "description": "An Electron application with Svelte and TypeScript",
+  "description": "QCM DESKTOP APPLICATION",
   "main": "./out/main/index.js",
-  "author": "example.com",
-  "homepage": "https://electron-vite.org",
+  "author": "d3j1x",
+  "homepage": "https://expertest.tn",
   "scripts": {
     "format": "prettier --plugin prettier-plugin-svelte --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
