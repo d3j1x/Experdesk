@@ -51,7 +51,7 @@ body {
   min-height: 100vh;
   color: var(--color-text);
   /* background: var(--color-background); */
-  background-color: darkblue;
+  background-color: #000119;
   line-height: 1.6;
   font-family:
     Inter,
