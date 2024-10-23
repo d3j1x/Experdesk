@@ -1,4 +1,6 @@
-# electron-svelte
+# Experdesk
+
+QCM Desktop Application For Expertest.
 
 An Electron application with Svelte and TypeScript
 
