@@ -1,6 +1,6 @@
 # Experdesk
 
-QCM - Expertest Application For Desktop By EXPERTEAM.
+Expertest QCM Desktop Application By EXPERTEAM.
 
 ## Technology
 
