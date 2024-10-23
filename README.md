@@ -1,10 +1,10 @@
 # Experdesk
 
-QCM Desktop Application For Expertest.
+QCM Desktop Application For Expertest By EXPERTEAM.
 
 ## Technology
 
-An Electron application with Svelte and TypeScript
+Electron application with Svelte and TypeScript
 
 ## Recommended IDE Setup
 
