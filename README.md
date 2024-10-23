@@ -2,6 +2,8 @@
 
 QCM Desktop Application For Expertest.
 
+## Technology
+
 An Electron application with Svelte and TypeScript
 
 ## Recommended IDE Setup
