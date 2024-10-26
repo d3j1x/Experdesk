@@ -1,11 +1,12 @@
-import { app, shell, BrowserWindow, ipcMain } from 'electron'
+import { app, shell, BrowserWindow, ipcMain, screen } from 'electron'
 import { join } from 'path'
 import { electronApp, optimizer, is } from '@electron-toolkit/utils'
 import icon from '../../resources/icon.png?asset'
 
+let mainWindow
 function createWindow(): void {
   // Create the browser window.
-  const mainWindow = new BrowserWindow({
+  mainWindow = new BrowserWindow({
     width: 900,
     height: 670,
     show: false,
@@ -51,6 +52,20 @@ app.whenReady().then(() => {
 
   // IPC test
   ipcMain.on('ping', () => console.log('pong'))
+
+  ipcMain.on('resize-to-90', () => {
+    const { width, height } = screen.getPrimaryDisplay().workAreaSize
+
+    const newWidth = Math.floor(width * 0.9) // Calculate 90% of screen width
+    const newHeight = Math.floor(height * 0.9) // Calculate 90% of screen height
+
+    mainWindow.setBounds({
+      width: newWidth,
+      height: newHeight,
+      x: Math.floor((width - newWidth) / 2), // Center the window horizontally
+      y: Math.floor((height - newHeight) / 2) // Center the window vertically
+    })
+  })
 
   createWindow()
 

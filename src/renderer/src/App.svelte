@@ -4,6 +4,8 @@
   import experdeskLogo from './assets/experdesk.png'
 
   const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
+  const screenHandle = (): void => window.electron.ipcRenderer.send('resize-to-90')
+
   let x = true
   function handleClick() {
     x = !x
@@ -21,18 +23,21 @@
     avec
     <span class="ts">Expertest</span>.
   </div>
-  <div class="my-2">
+  <div class="mt-4 mb-2">
     <button
-      class="border-2 rounded border-white hover:bg-blue-600 p-2 text-3xl font-bold bg-black"
-      on:click={handleClick}>START THE QCM</button
+      class="border-2 rounded border-white bg-blue-600 p-2 text-3xl font-bold hover:bg-green-600"
+      on:click={() => {
+        handleClick()
+        screenHandle()
+      }}>Commencer Le QUIZ</button
     >
   </div>
   <p class="tip hidden">Please try pressing <code>F12</code> to open the devTool</p>
   <div class="actions">
     <div class="action">
-      <a href="https://www.expertest.tn/" target="_blank" rel="noreferrer">Documentation</a>
+      <a href="https://www.expertest.tn/" target="_blank" rel="noreferrer">Explorer Expertest</a>
     </div>
-    <div class="action">
+    <div class="action hidden">
       <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions a11y-missing-attribute-->
       <a target="_blank" rel="noreferrer" on:click={ipcHandle}>Send IPC</a>
     </div>
@@ -40,7 +45,7 @@
   <Versions />
 {:else}
   <div class="fixed top-4 left-4 text-xl font-mono text-red-500">
-    <button class="" on:click={handleClick}>Back</button>
+    <button class="font-extrabold" on:click={handleClick}>Quitter</button>
   </div>
   <Theqcm />
 {/if}
