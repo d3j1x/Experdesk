@@ -1,7 +1,7 @@
 {
   "name": "experdesk",
   "version": "1.0.1",
-  "description": "EXPERTEST QCM DESKTOP APPLICATION",
+  "description": "EXPERTEST QUIZ - (QCM) DESKTOP APPLICATION",
   "main": "./out/main/index.js",
   "author": "EXPERTEAM",
   "homepage": "https://expertest.tn",
