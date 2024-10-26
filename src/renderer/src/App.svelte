@@ -25,7 +25,7 @@
   </div>
   <div class="mt-4 mb-2">
     <button
-      class="border-2 rounded border-white bg-blue-600 p-2 text-3xl font-bold hover:bg-green-600"
+      class="border-2 rounded border-white bg-blue-600 p-2 text-2xl font-bold hover:bg-green-600"
       on:click={() => {
         handleClick()
         screenHandle()
@@ -47,5 +47,7 @@
   <div class="fixed top-4 left-4 text-xl font-mono text-red-500">
     <button class="font-extrabold" on:click={handleClick}>Quitter</button>
   </div>
-  <Theqcm />
+  <div class="mx-auto justify-center items-center">
+    <Theqcm />
+  </div>
 {/if}

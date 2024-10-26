@@ -5,6 +5,9 @@
   let showExplanation = false
   let userAnswer = null
 
+  // end of quiz
+  let endquestion = 'Question Suivante'
+
   // Initialize the visibility state
   let isVisible = true
   let isCorrect = false
@@ -21,6 +24,9 @@
     } else {
       isCorrect = false
     }
+    if (currentQuestion === questions.length - 1) {
+      endquestion = 'Suivant'
+    }
     showExplanation = true
   }
 
@@ -31,11 +37,13 @@
   }
 </script>
 
-<div class="grid-flow-row bg-white text-black p-1 rounded">
-  <div class=" p-5 bg-slate-300 rounded">
+<div class=" bg-white text-black p-1 rounded">
+  <div class="w-full p-10 bg-slate-300 rounded">
     {#if currentQuestion < questions.length}
       <div>
-        <h2 class="text-2xl my-4 font-bold">Question {currentQuestion + 1} :</h2>
+        <h2 class="text-2xl my-4 font-bold text-center">
+          Question {currentQuestion + 1} :
+        </h2>
         <p class="text-2xl my-2 font-semibold">{questions[currentQuestion].question}</p>
         {#each questions[currentQuestion].choices as choice, index}
           <label class="text-xl my-2 p-2">
@@ -61,8 +69,9 @@
           <p
             class:customresgreen={isCorrect}
             class:customresred={!isCorrect}
-            class=" font-bold text-xl my-2"
+            class=" font-bold text-xl my-2 text-balance text-center"
           >
+            <span class="font-extrabold">Justification :</span>
             {questions[currentQuestion].explanation}
           </p>
           <button
@@ -72,13 +81,13 @@
             on:click={() => {
               nextQuestion()
               toggleVisibility()
-            }}>Question Suivante</button
+            }}>{endquestion}</button
           >
         {/if}
       </div>
     {:else}
       <div>
-        <h1 class="text-3xl font-semibold my-2">Quiz Complete!</h1>
+        <h1 class="text-3xl font-semibold my-2 text-center">Quiz Complete!</h1>
         <p class="text-2xl font-bold text-center my-2">Your score: {score} / {questions.length}</p>
       </div>
     {/if}
