@@ -34,7 +34,7 @@
   </div>
   <p class="tip hidden">Please try pressing <code>F12</code> to open the devTool</p>
   <div class="actions">
-    <div class="action">
+    <div class="action text-lime-500">
       <a href="https://www.expertest.tn/" target="_blank" rel="noreferrer">Explorer Expertest</a>
     </div>
     <div class="action hidden">
@@ -47,7 +47,7 @@
   <div class="fixed top-4 left-4 text-xl font-mono text-red-500">
     <button class="font-extrabold" on:click={handleClick}>Quitter</button>
   </div>
-  <div class="mx-auto justify-center items-center">
+  <div class="mx-auto justify-center items-center max-w-6xl">
     <Theqcm />
   </div>
 {/if}

@@ -69,7 +69,7 @@
           <p
             class:customresgreen={isCorrect}
             class:customresred={!isCorrect}
-            class=" font-bold text-xl my-2 text-balance text-center"
+            class=" font-bold text-xl my-2 text-balance text-center bg-white rounded p-2"
           >
             <span class="font-extrabold">Justification :</span>
             {questions[currentQuestion].explanation}
