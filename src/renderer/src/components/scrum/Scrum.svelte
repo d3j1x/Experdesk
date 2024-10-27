@@ -1,5 +1,5 @@
 <script>
-  import { questions } from './questions.js'
+  import questions from './questions.json'
   let currentQuestion = 0
   let score = 0
   let showExplanation = false
