@@ -1,5 +1,6 @@
 [
   {
+    "chapitre": [1, "But du guide Scrum"],
     "question": "Quelle est l'une des conséquences possibles si les règles de Scrum ne sont pas respectées ?",
     "choices": [
       "A) Une augmentation de la productivité de l'équipe",
@@ -11,6 +12,7 @@
     "explanation": "B) Le guide Scrum précise que changer les règles ou la conception de Scrum, ou omettre des éléments, peut dissimuler les problèmes et limiter les avantages obtenus avec Scrum, le rendant même potentiellement inutile."
   },
   {
+    "chapitre": [1, "But du guide Scrum"],
     "question": "Pourquoi le terme 'Developers' est-il utilisé dans Scrum, selon le guide ?",
     "choices": [
       "A) Pour inclure uniquement les équipes de développement logiciel",
@@ -22,6 +24,7 @@
     "explanation": "B) Le guide Scrum utilise le terme 'Developers' non pas pour exclure, mais pour simplifier, indiquant que toute personne obtenant de la valeur de Scrum peut se considérer comme en faisant partie."
   },
   {
+    "chapitre": [1, "But du guide Scrum"],
     "question": "Le Guide Scrum évolue principalement grâce à :",
     "choices": [
       "A) L'apport constant des leaders d'entreprises",
@@ -33,6 +36,7 @@
     "explanation": "B) Depuis sa première version en 2010, le guide a évolué avec de petites mises à jour fonctionnelles, en restant fidèle à son cadre de travail de base."
   },
   {
+    "chapitre": [1, "But du guide Scrum"],
     "question": "Le cadre de travail Scrum est décrit comme étant particulièrement utile dans :",
     "choices": [
       "A) Le développement de logiciels uniquement",
@@ -42,5 +46,65 @@
     ],
     "answer": 2,
     "explanation": "C) Scrum est de plus en plus utilisé dans des environnements complexes au-delà de ses origines dans le développement de produits logiciels, incluant des domaines variés"
+  },
+  {
+    "chapitre": [2, "Définition de Scrum"],
+    "question": "Quel est le rôle principal du Scrum Master dans un environnement Scrum ?",
+    "choices": [
+      "A) Superviser directement le travail de la Scrum Team",
+      "B) Faciliter un environnement propice pour que la Scrum Team puisse réussir",
+      "C) Créer et ordonner le Product Backlog",
+      "D) Décider des fonctionnalités à inclure dans chaque Sprint"
+    ],
+    "answer": 1,
+    "explanation": "B) Le rôle du Scrum Master est de favoriser un environnement où la Scrum Team peut fonctionner efficacement, plutôt que de superviser ou de contrôler directement le travail."
+  },
+  {
+    "chapitre": [2, "Définition de Scrum"],
+    "question": "Quelle est l'une des principales caractéristiques du cadre de travail Scrum ?",
+    "choices": [
+      "A) Il fournit des instructions détaillées pour chaque processus",
+      "B) Il est conçu pour être utilisé exclusivement dans le développement de logiciels",
+      "C) Il repose sur l'intelligence collective des utilisateurs pour s'adapter",
+      "D) Il impose un processus rigide et linéaire pour résoudre les problèmes complexes"
+    ],
+    "answer": 2,
+    "explanation": "C) Scrum repose sur l'intelligence collective des personnes qui l'utilisent, permettant aux équipes de s'adapter et de trouver les meilleures solutions aux problèmes complexes sans suivre des instructions détaillées."
+  },
+  {
+    "chapitre": [2, "Définition de Scrum"],
+    "question": "Le Product Backlog est ordonné par :",
+    "choices": [
+      "A) Le Scrum Master",
+      "B) La Scrum Team entière",
+      "C) Le Product Owner",
+      "D) Les parties prenantes externes"
+    ],
+    "answer": 2,
+    "explanation": "C) Selon la définition de Scrum, le Product Owner est responsable de l'ordonnancement du Product Backlog, afin de prioriser le travail à effectuer pour résoudre des problèmes complexes."
+  },
+  {
+    "chapitre": [2, "Définition de Scrum"],
+    "question": "Pourquoi Scrum est-il considéré comme un cadre de travail 'incomplet' ?",
+    "choices": [
+      "A) Il ne contient pas assez de règles pour être utilisé efficacement",
+      "B) Il permet l'intégration de divers processus, techniques et méthodes",
+      "C) Il nécessite des ajustements fréquents des principes de base de Scrum",
+      "D) Il ne peut pas être utilisé dans un environnement non logiciel"
+    ],
+    "answer": 1,
+    "explanation": "B) Scrum est volontairement incomplet pour permettre aux équipes d'intégrer divers processus, techniques et méthodes, offrant ainsi la flexibilité nécessaire pour résoudre des problèmes complexes dans différents contextes."
+  },
+  {
+    "chapitre": [2, "Définition de Scrum"],
+    "question": "Qu'est-ce que Scrum rend visible pour encourager les améliorations ?",
+    "choices": [
+      "A) Les méthodes de développement agiles",
+      "B) Les processus et outils techniques spécifiques",
+      "C) L'efficacité relative du management et des techniques de travail",
+      "D) Les résultats financiers de l'organisation"
+    ],
+    "answer": 2,
+    "explanation": "C) Scrum rend visible l'efficacité relative du management, de l'environnement, et des techniques de travail en place, permettant ainsi d'identifier les domaines à améliorer."
   }
 ]
