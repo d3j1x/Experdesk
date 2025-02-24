@@ -1,6 +1,6 @@
 # Experdesk
 
-Expertest Quiz - (QCM) Desktop Application By [EXPERTEAM](https://www.expertunisie.com/).
+Expertest Quiz - (QCM) Desktop Application.
 
 ## Technology
 
