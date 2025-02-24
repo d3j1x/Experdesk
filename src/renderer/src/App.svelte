@@ -15,13 +15,13 @@
 {#if x}
   <img alt="logo" class="logo" src={experdeskLogo} />
   <div style="letter-spacing: 1px;" class="creator">
-    Powered by <span style="letter-spacing: 2px; font-weight: bold;">EXPERTEAM</span>
+    Powered by <span style="letter-spacing: 2px; font-weight: bold;">d3j1x</span>
   </div>
   <div class="text">
     Lancez votre carrière dans le
     <span class="svelte">Testing</span>
     avec
-    <span class="ts">Expertest</span>.
+    <span class="ts">Experdesk</span>.
   </div>
   <div class="mt-4 mb-2">
     <button
@@ -35,7 +35,7 @@
   <p class="tip hidden">Please try pressing <code>F12</code> to open the devTool</p>
   <div class="actions">
     <div class="action text-lime-500">
-      <a href="https://www.expertest.tn/" target="_blank" rel="noreferrer">Explorer Expertest</a>
+      <a href="https://www.experdesk.tn/" target="_blank" rel="noreferrer">Explorer Experdesk</a>
     </div>
     <div class="action hidden">
       <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions a11y-missing-attribute-->
