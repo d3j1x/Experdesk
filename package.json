@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "EXPERTEST QUIZ - (QCM) DESKTOP APPLICATION",
   "main": "./out/main/index.js",
-  "author": "EXPERTEAM",
+  "author": "d3j1x",
   "homepage": "https://expertest.tn",
   "scripts": {
     "format": "prettier --plugin prettier-plugin-svelte --write .",
