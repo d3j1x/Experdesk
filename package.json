@@ -1,10 +1,10 @@
 {
   "name": "experdesk",
   "version": "1.0.1",
-  "description": "EXPERTEST QUIZ - (QCM) DESKTOP APPLICATION",
+  "description": "EXPERDESK QUIZ - (QCM) DESKTOP APPLICATION",
   "main": "./out/main/index.js",
   "author": "d3j1x",
-  "homepage": "https://expertest.tn",
+  "homepage": "https://experdesk.tn",
   "scripts": {
     "format": "prettier --plugin prettier-plugin-svelte --write .",
     "lint": "eslint . --ext .js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix",
