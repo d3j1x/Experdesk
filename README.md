@@ -1,6 +1,6 @@
 # Experdesk
 
-Expertest Quiz - (QCM) Desktop Application.
+Experdesk Quiz - (QCM) Desktop Application.
 
 ## Technology
 
